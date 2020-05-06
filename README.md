@@ -8,6 +8,7 @@ os server list
 
 How to use?
 
+```
 docker -exec -it oscli sh 
 vi stack.rc # (opy the rc file that you download from openstack)
 source stack.rc
@@ -15,5 +16,6 @@ os server list
 os network list
 os volume list
 os image list 
+```
 
 etc. 
