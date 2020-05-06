@@ -9,7 +9,8 @@ os server list
 How to use?
 
 ```
-docker -exec -it oscli sh 
+docker run -dit --restart unless-stopped --name cli  admin0/oscli
+docker -exec -it cli sh  ## login to the container 
 vi stack.rc # (opy the rc file that you download from openstack)
 source stack.rc
 os server list 
