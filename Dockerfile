@@ -1,4 +1,4 @@
-FROM alpine:3.12
+FROM alpine:latest
 MAINTAINER Sashi Dahal<shashi.eu@gmail.com>
 
 RUN apk update
